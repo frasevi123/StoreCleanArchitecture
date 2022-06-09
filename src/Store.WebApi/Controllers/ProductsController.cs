@@ -24,6 +24,7 @@ namespace Store.WebApi.Controllers
         /// <summary>
         /// Get all products
         /// Get all products
+        /// Get all products
         /// </summary>
         /// <response code="200">Returns the products</response>
         [HttpGet]
