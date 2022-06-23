@@ -19,5 +19,6 @@ RUN dotnet publish "Store.WebApi.csproj" -c Release -o /app/publish
 
 FROM base AS final
 WORKDIR /app
-COPY --from=publish /app/publish .
+#COPY --from=publish /app/publish .
+COPY ./publish/devops-dotnet /app
 ENTRYPOINT ["dotnet", "Store.WebApi.dll"]
