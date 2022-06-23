@@ -1,40 +1,20 @@
 ﻿apiVersion: apps/v1
-
 kind: Deployment
-
 metadata:
-
   name: app-deployment
-
-
 spec:
-
   replicas: 1
-
   selector:
-
     matchLabels:
-
       app: my-dotnet-app
-
   template:
-
     metadata:
-
       labels:
-
         app: my-dotnet-app
-
     spec:
-
       containers:
-
       - name: my-dotnet-app
-
         image: crcapacitaciondevops.azurecr.io/api
-
         imagePullPolicy: Always
-
         ports:
-
         - containerPort: 80
