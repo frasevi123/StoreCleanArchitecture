@@ -1,20 +1,11 @@
 ﻿apiVersion: v1
 kind: Service
-
 metadata:
-
-  name: my-dotnet-appservices
-
-
-spec:
-    
+  name: my-services
+spec: 
     type: LoadBalancer
-
     ports:
-
         - port: 80
-
     selector:
-
-        app: my-dotnet-app
+        app: my-app
 
