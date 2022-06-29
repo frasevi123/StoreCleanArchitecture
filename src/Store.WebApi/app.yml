@@ -13,7 +13,7 @@ spec:
         app: my-app
     spec:
       containers:
-      - name: my-app
+      - name: my-image
         image: crcapacitaciondevops.azurecr.io/api
         imagePullPolicy: Always
         ports:
