@@ -15,6 +15,5 @@ spec:
       containers:
       - name: my-image
         image: crcapacitaciondevops.azurecr.io/api
-        imagePullPolicy: Always
         ports:
         - containerPort: 80
