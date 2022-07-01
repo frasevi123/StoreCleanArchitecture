@@ -17,3 +17,4 @@ spec:
         image: crcapacitaciondevops.azurecr.io/api:latest
         ports:
         - containerPort: 80
+        - containerPort: 443
