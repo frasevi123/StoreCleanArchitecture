@@ -16,4 +16,4 @@ spec:
       - name: my-image
         image: crcapacitaciondevops.azurecr.io/api:latest
         ports:
-        - containerPort: 443
+        - containerPort: 80
